@@ -37,7 +37,10 @@ build/
 ### Mac OS ###
 .DS_Store
 
-target/
+target/*
+.mvn/*
+out/*
+invisibledesktop.properties
+target
 .mvn
 out
-invisibledesktop.properties

@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="InvisibleDesktop">
+    <output-path>$PROJECT_DIR$/out/artifacts/InvisibleDesktop</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="ru.study.invisibledesktop.InvisibleApplication" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="Invisible Desktop" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="InvisibleDesktop.jar">
+        <element id="module-output" name="InvisibleDesktop" />
+      </element>
+    </root>
+  </artifact>
+</component>

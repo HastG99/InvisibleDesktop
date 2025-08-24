@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.study.invisibledesktop.controller.ChatController">
+   <bottom>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="messageField" alignment="TOP_LEFT" onAction="#onSend" prefHeight="100.0" prefWidth="532.0" promptText="Сообщение" HBox.hgrow="ALWAYS">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <Button fx:id="sendButton" mnemonicParsing="false" onAction="#onSend" text="➤" HBox.hgrow="ALWAYS">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </bottom>
+   <center>
+      <TextArea fx:id="chatArea" editable="false" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font></TextArea>
+   </center>
+</BorderPane>

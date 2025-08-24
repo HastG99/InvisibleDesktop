@@ -12,6 +12,18 @@ Cross-platform desktop client for the Invisible secure messaging platform. Built
 - ⚡ Real-time message delivery
 - 🔑 Automatic client ID generation
 
+## Demo
+
+### Authentication Interface
+The application welcomes you with your unique emoji-based ID and a simple password field for group access.
+
+![Authentication Window](images/welcome.png)
+
+### Chat Interface
+Once connected, you can participate in completely anonymous group conversations where all users are identified only by emoji hashes.
+
+![Chat Interface](images/chat.png)
+
 ## Requirements
 
 - Java 16 or higher

@@ -20,7 +20,7 @@ Cross-platform desktop client for the Invisible secure messaging platform. Built
 ## Installation
 
 ### Direct Download
-Download the latest pre-built JAR from [Releases](https://github.com/yourusername/InvisibleDesktop/releases) and run:
+Download the latest pre-built JAR from [Releases](https://github.com/HastG99/InvisibleDesktop/releases) and run:
 ```bash
 java -jar InvisibleDesktop.jar
 ```
@@ -107,7 +107,7 @@ For support and questions, please open an issue on GitHub.
 
 ## Related Projects
 
-- [InvisibleServer](https://github.com/yourusername/InvisibleServer) - Backend server for the messaging platform
+- [InvisibleServer](https://github.com/HastG99/InvisibleServer) - Backend server for the messaging platform
 
 ---
 
